@@ -3,4 +3,4 @@
  
 GITHUB DESKTOP
 
-![OSSEC LOGO](https://www.ossec.net/wp-content/uploads/2019/01/ossec.png)
+![OSSEC LOGO](https://www.ossec.net/wp-content/uploads/2019/01/ossec.png =250x250)
