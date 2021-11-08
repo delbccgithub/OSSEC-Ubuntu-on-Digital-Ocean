@@ -1,4 +1,4 @@
-# OSSEC-Ubuntu on Digital Ocean
+# OSSEC-Ubuntu on Digital Ocean (WORK IN PROGRESS)
 OSSEC installation tutorial.
 
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%>
