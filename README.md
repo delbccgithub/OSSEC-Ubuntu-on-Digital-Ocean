@@ -416,6 +416,7 @@ Platforms & Software used.
 <br/>
 
 #### This Project was created while attending a course at Bronx Community College.
+
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
 GitHub Written by:
