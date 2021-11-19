@@ -24,7 +24,7 @@ Upgrade packages
 <br/>
 <br/>
 
-First we will install the necessary packages to build OSSEC from sources.
+Install the packages to build OSSEC from sources.
 
 **$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**
 
@@ -33,7 +33,7 @@ First we will install the necessary packages to build OSSEC from sources.
 <br/>
 
 
-Once these dependencies have been fulfilled it is time to download OSSEC and build it in our system.
+Begin to download OSSEC.
 
 **$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz**
 
@@ -42,7 +42,7 @@ Once these dependencies have been fulfilled it is time to download OSSEC and bui
 <br/>
 
 
-The above command will download the OSSEC sources into the /opt directory. Before building those we need to extract them from the tarball. We’ll use the next command:
+Extract them from the tar. Use the following command:
 
 **$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt**
 
@@ -50,7 +50,7 @@ The above command will download the OSSEC sources into the /opt directory. Befor
 <br/>
 
 
-Once downloaded and uncompressed we can start the installation process. Very conveniently there is an script already incorporated on the program for this task. We launch this installer.
+Once downloaded start the installation.
 
 **$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
 
@@ -58,9 +58,7 @@ Once downloaded and uncompressed we can start the installation process. Very con
 <br/>
 
 
-This will trigger the script which will first ask a few questions and then it will build and install OSSEC in our system.
-
-First step we will be aksed what language to use:
+The first questions is what language would you like to install OSSEC in on your system.
 
 **$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
 
@@ -71,7 +69,7 @@ First step we will be aksed what language to use:
 
 (en/br/cn/de/el/es/fr/hu/it/jp/nl/pl/ru/sr/tr?) [en]:
 
-I’ll choose the default. Pick up yours. 
+I’ll choose the default. (Select differently if you want another language.)
 
 Than **PRESS ENTER.**
 
@@ -80,7 +78,7 @@ Than **PRESS ENTER.**
 
 
 
-Next we will install the OSSEC script.
+Next install the OSSEC script.
 
 OSSEC HIDS v3.6.0 Installation Script - http://www.ossec.net
 
@@ -104,7 +102,7 @@ You must have a C compiler pre-installed in your system.
 
 
 
-Next the questions start.
+Answer the following questions:
 
 1- What kind of installation do you want (server, agent, local, hybrid or help)?
 
@@ -114,12 +112,12 @@ Type **server**.
 <br/>
 
 
-You see message like this.
+You'll see.
 
 - Server installation chosen.
 
 
-Next, choosing where to install OSSEC.
+Choose where to install OSSEC.
 
 2- Setting up the installation environment.
 
@@ -133,7 +131,7 @@ Next, choosing where to install OSSEC.
 
 
 
-Next configure OSSEC.
+Proceed to configure OSSEC.
 
 3- Configuring the OSSEC HIDS.
 
@@ -278,7 +276,7 @@ If you choose yes you’ll see something like this.
 
 - firewall-drop enabled (local) for levels >= 6
 
--ip_address_here
+- (_note_an_ip_address_should_appear_here)
 
 
 Go to next question.
