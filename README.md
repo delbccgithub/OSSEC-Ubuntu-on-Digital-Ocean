@@ -1,3 +1,5 @@
+<pre>
+
 # OSSEC-Ubuntu on Digital Ocean (WORK IN PROGRESS)
 OSSEC installation tutorial.
 
@@ -834,5 +836,7 @@ If you are already here it is because not only you are interested but you may un
 This is all for this how to install OSSEC on Ubuntu. For further details on how the tool works just visit the official documentation pages. At a later article we’ll configure an agent on a Windows box and will speak about configuring agents connected to servers like this one we’ve just set up.
 
 PS: Where have you seen someone saying their guide has drawbacks? Aren’t they all perfect? This one isn’t and you can tell you saw this unperfection comment here first, on adminbyaccident.com. Because accidents happen.
+
+</pre>
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
