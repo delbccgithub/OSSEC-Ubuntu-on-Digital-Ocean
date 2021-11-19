@@ -34,7 +34,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 Update system sources
 
-**$ sudo apt update** 
+``` $ sudo apt update ```
 
 <br/>
 <br/>
