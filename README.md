@@ -414,10 +414,12 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 **What is OSSEC and how does it work?**
 
-OSSEC is an open-sourced software, that utilizes a Host-based Intrusion Detection System or HIDS. The HID system includes log analysis, routine integrity checks, Windows registry monitoring, rootkit detecting, time-based alerting and active response. Overall, the use of this application is ideal if you want to keep a close eye on all things taking place on your server.
+OSSEC is open-sourced software, that has Host-based Intrusion Detection System or HIDS. The HID system features log analysis, windows registry monitoring, regulated integrity checks, time-based alerts, active response and rootkit detection. Altogether, this application is useful if you want observe all things taking place on your server and have it logged and reported to you.
 
 
-**What does the program do? **
+**What does the program do? 
+
+OSSEC encorporates itself onto your server and serves as a detection system against intruders or unauthorized/suspicious access.
 
 
 **What problem does the application solve?**
@@ -429,9 +431,9 @@ Give 3 use case for the software.
 
 <ins>Examples:</ins>
 
-1 –
-2 –
-3 –
+1 – Someone tries to use a rootkit
+2 – Someone tries to access your server without authorization
+3 – Someone has incorrect access key user agent
 
 Final Review
 
