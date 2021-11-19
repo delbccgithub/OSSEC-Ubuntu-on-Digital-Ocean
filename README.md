@@ -374,7 +374,7 @@ Click enter and continue.
 
 <img src="https://i.dlpng.com/static/png/6994062_preview.png" width=50% height=50%>  
 
-# Next, setting up agent and connecting to server.
+# Next, setting up an agent and connecting to the server.
 
 Run the 'manage_agents' to add or remove them:
 
