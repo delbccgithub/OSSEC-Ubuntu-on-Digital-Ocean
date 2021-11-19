@@ -13,19 +13,19 @@ As always we do update system sources first.
 
 If packages can be upgraded do it now.
 
-**$ sudo apt upgrade -y
+**$ sudo apt upgrade -y**
 
 First we will install the necessary packages to build OSSEC from sources.
 
-**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y
+**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**
 
 Once these dependencies have been fulfilled it is time to download OSSEC and build it in our system.
 
-**$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz
+**$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz**
 
 The above command will download the OSSEC sources into the /opt directory. Before building those we need to extract them from the tarball. We’ll use the next command:
 
-**$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt
+**$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt**
 
 Once downloaded and uncompressed we can start the installation process. Very conveniently there is an script already incorporated on the program for this task. We launch this installer.
 
@@ -35,36 +35,39 @@ This will trigger the script which will first ask a few questions and then it wi
 
 First step we will be aksed what language to use:
 
-**$ sudo sh /opt/ossec-hids-3.6.0/install.sh
+**$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
 
 
 (en/br/cn/de/el/es/fr/hu/it/jp/nl/pl/ru/sr/tr?) [en]:
 
 I’ll choose the default. Pick up yours. 
 
-Than **PRESS ENTER.
+Than **PRESS ENTER.**
 
-The second step will be an acknowledgement for you to be aware of the procedure you are about to accomplish.
+
+Next we will install the OSSEC script.
 
 OSSEC HIDS v3.6.0 Installation Script - http://www.ossec.net
 
-You are about to start the installation process of the OSSEC HIDS.
+
+_You are about to start the installation process of the OSSEC HIDS.
 
 You must have a C compiler pre-installed in your system.
 
-- System: Linux ossecman 4.15.0-88-generic
+- System: Linux ossecman 4.15.0-88-generic_
 
 - User: root
 
 - Host: ossecman
 
--- Press ENTER to continue or Ctrl-C to abort. --
+**-- Press ENTER to continue or Ctrl-C to abort. --**
+
 
 Next the questions start.
 
 1- What kind of installation do you want (server, agent, local, hybrid or help)?
 
-We’ll type ‘server’. We’ll be notified by a message like this.
+Type ‘**server**’. We’ll be notified by a message like this.
 
 - Server installation chosen.
 
