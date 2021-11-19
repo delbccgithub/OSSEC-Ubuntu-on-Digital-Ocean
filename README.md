@@ -363,14 +363,14 @@ More information can be found at http://www.ossec.net
 
 Click enter and continue.
 
-<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=50% height=50%>  
+<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=30% height=30%>  
 
 ## You server should now be installed and operational.
 
 
 
 
-<img src="https://i.dlpng.com/static/png/6994062_preview.png" width=30% height=30%>  
+<img src="https://i.dlpng.com/static/png/6994062_preview.png" width=50% height=50%>  
 
 # Next, to connect agent and server, you need to add an agent.
 
