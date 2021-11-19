@@ -4,6 +4,7 @@ OSSEC installation tutorial.<br/>
 
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
 
+*Have a question or need information? Please refer to the FAQ section at the bottom of the page.*
 
 **Synopsis:**
 
@@ -11,7 +12,7 @@ This tutorial will briefly go over the installation of OSSEC within a Digital Oc
 Additionally, we will also install the Windows agent to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
 
 
-*Have a question or need information? Please refer to the FAQ section at the bottom of the page.*
+
 
 To begin the INSTALLATION (OSSEC on Ubuntu):
 
