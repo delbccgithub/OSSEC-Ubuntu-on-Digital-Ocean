@@ -416,6 +416,8 @@ GitHub Written by:
 Delawn Khudan
 Shaina Mirabal
 
+Reference: https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ by Albert Valbuena
+
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
 
