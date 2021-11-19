@@ -364,9 +364,13 @@ More information can be found at http://www.ossec.net
 Click enter and continue.
 
 
-<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
+<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=30% height=30%>
 
-Next, to to connect agent and server, you need to add each agent to the server.
+
+# Next, to connect agent and server, you need to add an agent.
+
+<img src="https://i.dlpng.com/static/png/6994062_preview.png" width=30% height=30%>  
+
 
 Run the 'manage_agents' to add or remove them:
 
