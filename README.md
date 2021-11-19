@@ -7,7 +7,7 @@
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
 
 
-*Have a question or need information? Please refer to the **FAQ** section at the bottom of the page.*
+*Have a question or need information? Please refer to the **[FAQ](#faq)** section at the bottom of the page.*
 
 </br>
 
