@@ -9,67 +9,40 @@ Let’s go with this how to install OSSEC on Ubuntu.
 
 As always we do update system sources first.
 
-##$ sudo apt update
+**$ sudo apt update
 
 If packages can be upgraded do it now.
 
-##$ sudo apt upgrade -y
+**$ sudo apt upgrade -y
 
 First we will install the necessary packages to build OSSEC from sources.
 
-$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y
+**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y
 
 Once these dependencies have been fulfilled it is time to download OSSEC and build it in our system.
 
-$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz
+**$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz
 
 The above command will download the OSSEC sources into the /opt directory. Before building those we need to extract them from the tarball. We’ll use the next command:
 
-$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt
+**$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt
 
 Once downloaded and uncompressed we can start the installation process. Very conveniently there is an script already incorporated on the program for this task. We launch this installer.
 
-$ sudo sh /opt/ossec-hids-3.6.0/install.sh
+**$ sudo sh /opt/ossec-hids-3.6.0/install.sh
 
 This will trigger the script which will first ask a few questions and then it will build and install OSSEC in our system.
 
 First step we will be aksed what language to use:
 
-$ sudo sh /opt/ossec-hids-3.6.0/install.sh
+**$ sudo sh /opt/ossec-hids-3.6.0/install.sh
 
-** Para instalação em português, escolha [br].
 
-** 要使用中文进行安装, 请选择 [cn].
+(en/br/cn/de/el/es/fr/hu/it/jp/nl/pl/ru/sr/tr?) [en]:
 
-** Fur eine deutsche Installation wohlen Sie [de].
+I’ll choose the default. Pick up yours. 
 
-** Για εγκατάσταση στα Ελληνικά, επιλέξτε [el].
-
-** For installation in English, choose [en].
-
-** Para instalar en Español , eliga [es].
-
-** Pour une installation en français, choisissez [fr]
-
-** A Magyar nyelvű telepítéshez válassza [hu].
-
-** Per l'installazione in Italiano, scegli [it].
-
-** 日本語でインストールします．選択して下さい．[jp].
-
-** Voor installatie in het Nederlands, kies [nl].
-
-** Aby instalować w języku Polskim, wybierz [pl].
-
-** Для инструкций по установке на русском ,введите [ru].
-
-** Za instalaciju na srpskom, izaberi [sr].
-
-** Türkçe kurulum için seçin [tr].
-
-(en/br/cn/de/el/es/fr/hu/it/jp/nl/pl/ru/sr/tr) [en]:
-
-I’ll choose the default. Pick up yours.
+Than **PRESS ENTER.
 
 The second step will be an acknowledgement for you to be aware of the procedure you are about to accomplish.
 
