@@ -977,6 +977,6 @@ This is all for this how to install OSSEC on Ubuntu. For further details on how 
 
 PS: Where have you seen someone saying their guide has drawbacks? Aren’t they all perfect? This one isn’t and you can tell you saw this unperfection comment here first, on adminbyaccident.com. Because accidents happen.
 
-<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=30% height=30%>
+<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
