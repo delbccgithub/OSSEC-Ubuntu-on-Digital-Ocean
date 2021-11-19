@@ -433,6 +433,16 @@ Give 3 use case for the software.
 2 –
 3 –
 
+Final Review
+
+**Is this software any good?**
+
+**What are its pros and cons.**
+
+**Can you see yourself using this tool in the future.**
+
+**What did you learn from using this software?**
+
 
 
 Platforms & Software used.
