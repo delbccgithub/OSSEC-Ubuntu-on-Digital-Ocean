@@ -412,7 +412,7 @@ Platforms & Software used.
 #### This Project was created while attending a course at Bronx Community College.
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
-GitHub ReadMe.md Written by:
+GitHub Written by:
 Delawn Khudan
 Shaina Mirabal
 
