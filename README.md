@@ -17,8 +17,9 @@ This tutorial will briefly go over the installation of OSSEC within a Digital Oc
 Additionally, we will also install the Windows agent to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
 
 <ins>Instructions:</ins>
-[1. Installation of OSSEC Ubuntu using DigitalOcean.](#1-lets-begin-the-installation-of-ossec-ubuntu-using-digitalocean)
 
+[1. Installing OSSEC on Ubuntu Server using DigitalOcean.](#1-lets-begin-the-installation-of-ossec-ubuntu-using-digitalocean)
+[2. Setting up an OSSEC agent.](#2-next-setting-up-an-agent-and-connecting-to-the-server)
 
 
 ## 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:
