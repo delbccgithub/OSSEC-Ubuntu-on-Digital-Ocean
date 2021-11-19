@@ -366,10 +366,11 @@ Click enter and continue.
 ## You server should now be installed and operational.
 
 
-# Next, to connect agent and server, you need to add an agent.
+
 
 <img src="https://i.dlpng.com/static/png/6994062_preview.png" width=30% height=30%>  
 
+# Next, to connect agent and server, you need to add an agent.
 
 Run the 'manage_agents' to add or remove them:
 
