@@ -363,6 +363,8 @@ More information can be found at http://www.ossec.net
 
 Click enter and continue.
 
+<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=200% height=200%>  
+
 ## You server should now be installed and operational.
 
 
