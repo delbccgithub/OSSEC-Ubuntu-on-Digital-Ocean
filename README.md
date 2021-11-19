@@ -368,6 +368,8 @@ Click enter and continue.
 ## You server should now be installed and operational.
 
 
+<br/>
+<br/>
 
 
 <img src="https://i.dlpng.com/static/png/6994062_preview.png" width=50% height=50%>  
