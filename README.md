@@ -25,6 +25,9 @@ Additionally, we will also install the Windows agent to report to this server. A
 [2. Setting up an OSSEC agent.](#2-next-setting-up-an-agent-and-connecting-to-the-server)
 
 
+</br>
+
+
 ## 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:
 
 <img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=50% height=50%>
