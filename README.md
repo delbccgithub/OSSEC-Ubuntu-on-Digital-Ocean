@@ -10,14 +10,14 @@ Let’s go with this how to install OSSEC on Ubuntu.
 
 <img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=50% height=50%>
 
-As always we do update system sources first.
+Update system sources
 
 **$ sudo apt update** 
 
 <br/>
 <br/>
 
-If packages can be upgraded do it now.
+Upgrade packages
 
 **$ sudo apt upgrade -y** 
 
