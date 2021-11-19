@@ -410,6 +410,15 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 **$ sudo systemctl enable ossec** 
 
+WORK IN PROGRESS
+CONTINUE
+CONTINUE
+CONTINUE
+CONTINUE
+CONTINUE
+CONTINUE
+CONTINUE
+
 <br/>
 <br/>
 
