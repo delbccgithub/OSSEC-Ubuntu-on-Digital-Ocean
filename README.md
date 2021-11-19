@@ -363,7 +363,7 @@ More information can be found at http://www.ossec.net
 
 Click enter and continue.
 
-You server should now be installed and operational.
+## You server should now be installed and operational.
 
 
 # Next, to connect agent and server, you need to add an agent.
