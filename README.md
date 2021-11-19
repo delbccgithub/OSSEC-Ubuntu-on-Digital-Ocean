@@ -11,6 +11,8 @@ This tutorial will briefly go over the installation of OSSEC within a Digital Oc
 Additionally, we will also install the Windows agent to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
 
 
+*Have a question or need information? Please refer to the FAQ section at the bottom of the page.*
+
 To begin the INSTALLATION (OSSEC on Ubuntu):
 
 <img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=50% height=50%>
@@ -401,15 +403,18 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 ## Congratulations! You've sucessfully installed an OSSEC Server, Agent and Web UI.
 
+
 # FAQ
 
 **What is OSSEC and how does it work?**
 
 OSSEC is an open-sourced software, that utilizes a Host-based Intrusion Detection System or HIDS. The HID system includes log analysis, routine integrity checks, Windows registry monitoring, rootkit detecting, time-based alerting and active response. Overall, the use of this application is ideal if you want to keep a close eye on all things taking place on your server.
 
-What does the program do? 
 
-What problem does the application solve?
+**What does the program do? **
+
+
+**What problem does the application solve?**
 
 OSSEC aims to solve issues of intrusion on systems that will otherwise go unnoticed if you have no system logging or lack the capacity to protect your server from any unwanted access.
 
