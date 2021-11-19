@@ -424,6 +424,14 @@ OSSEC is an open-sourced software, that utilizes a Host-based Intrusion Detectio
 
 OSSEC aims to solve issues of intrusion on systems that will otherwise go unnoticed if you have no system logging or lack the capacity to protect your server from any unwanted access.
 
+**Use cases**
+Give 3 use case for the software.
+
+<ins>Examples:</ins>
+
+1 –
+2 –
+3 –
 
 
 
