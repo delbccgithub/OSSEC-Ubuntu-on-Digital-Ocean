@@ -140,7 +140,7 @@ Next configure OSSEC.
 
 3.1- Do you want e-mail notification? (y/n) [y]:
 
-Type **yes**
+Type **Yes**
 
 <br/>
 <br/>
@@ -160,7 +160,7 @@ Type the **your email** or use **root@localhost**
 
 <br/>
 
-**Y**
+Type **Y**
 
 <br/>
 <br/>
@@ -175,7 +175,7 @@ Type the **your email** or use **root@localhost**
 
 <br/>
 
-**Y**
+Type **Y**
 
 <br/>
 <br/>
@@ -188,7 +188,7 @@ Note: This option alerts will be root’s mail account. And they will read simil
 
 <br/>
 
-say **Y**
+Type **Y**
 
 
 <br/>
@@ -200,7 +200,7 @@ Time to ask if a rootkit check daemon is of your interest. Why not?
 
 <br/>
 
-say **Y**
+Type **Y**
 
 
 <br/>
@@ -237,7 +237,7 @@ If you want strongest security than choose:
 
 <br/>
 
-**Y**
+Type **Y**
 
 <br/>
 <br/>
@@ -265,7 +265,7 @@ also add them to block on snort events, for example.
 
 <br/>
 
-choose **Y**
+Choose **Y**
 
 
 <br/>
