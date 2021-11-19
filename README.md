@@ -400,8 +400,10 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
-<img src="https://meterpreter.org/wp-content/uploads/2018/10/ubuntu.png" width=10% height=10%>
+https://releases.ubuntu.com/20.04/
+<img src="https://meterpreter.org/wp-content/uploads/2018/10/ubuntu.png" width=15% height=15%>
 
+https://www.digitalocean.com/
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/768px-DigitalOcean_logo.svg.png" width=10% height=10%>
 
 
