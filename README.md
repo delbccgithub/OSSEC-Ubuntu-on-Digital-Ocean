@@ -406,6 +406,8 @@ Platforms & Software used.
 <img src="https://meterpreter.org/wp-content/uploads/2018/10/ubuntu.png" width=15% height=15%> https://releases.ubuntu.com/20.04/
 
 
+<img src="https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/ossec.png?itok=koaDq_K2" width=15% height=15%> https://www.ossec.net/download-ossec/
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/768px-DigitalOcean_logo.svg.png" width=15% height=15%> https://www.digitalocean.com/
 
 
