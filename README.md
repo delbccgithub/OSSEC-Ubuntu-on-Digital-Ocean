@@ -364,7 +364,7 @@ More information can be found at http://www.ossec.net
 Click enter and continue.
 
 
-<img src=" https://cdn.dribbble.com/users/1066810/screenshots/3287998/done800x600.gif" width=50% height=50%>
+<img src="https://cdn.dribbble.com/users/1066810/screenshots/3287998/done800x600.gif" width=50% height=50%>
 
 Next, to to connect agent and server, you need to add each agent to the server.
 
