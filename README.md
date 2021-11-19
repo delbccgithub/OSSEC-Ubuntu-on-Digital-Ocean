@@ -1,10 +1,10 @@
 
 # OSSEC-Ubuntu on Digital Ocean Droplet (Lastest Update: Nov 2021)
 
+**OSSEC installation tutorial.**
+
 
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
-
-**OSSEC installation tutorial.**
 
 </br>
 
