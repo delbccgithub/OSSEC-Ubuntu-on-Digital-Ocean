@@ -459,7 +459,7 @@ Final Review
 <br/>
 <br/>
 
-#### This Project was created while attending a course at Bronx Community College.
+### This Project was created while attending a course at Bronx Community College.
 
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
