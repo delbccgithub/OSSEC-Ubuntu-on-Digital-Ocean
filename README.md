@@ -412,6 +412,10 @@ Platforms & Software used.
 #### This Project was created while attending a course at Bronx Community College.
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
+GitHub ReadMe.md Written by:
+Delawn Khudan
+Shaina Mirabal
+
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
 
