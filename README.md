@@ -419,9 +419,7 @@ Platforms & Software used.
 
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
-GitHub Written by:
-
-Delawn Khudan and Shaina Mirabal
+GitHub Written by: Delawn Khudan and Shaina Mirabal
 
 Reference: https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ by Albert Valbuena
 
