@@ -365,8 +365,6 @@ Click enter and continue.
 
 You server should now be installed and operational.
 
-<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=30% height=30%>
-
 
 # Next, to connect agent and server, you need to add an agent.
 
