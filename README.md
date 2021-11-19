@@ -1,28 +1,24 @@
-The action of every agent <br />
-  into the world <br />
-starts <br />
-  from their physical selves. <br />
 
 # OSSEC-Ubuntu on Digital Ocean (WORK IN PROGRESS)
-OSSEC installation tutorial.
+OSSEC installation tutorial.<br />
 
-<img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%>
+<img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%><br />
 
-We will now install OSSEC, make a basic configuration including sending emails with alerts, will briefly explain important files so we can later tune OSSEC to our needs, we’ll also install a Windows agent to report to this server install, and as a last step we’ll also install a web user interface to look for alerts.
+We will now install OSSEC, make a basic configuration including sending emails with alerts, will briefly explain important files so we can later tune OSSEC to our needs, we’ll also install a Windows agent to report to this server install, and as a last step we’ll also install a web user interface to look for alerts.<br />
 
-Let’s go with this how to install OSSEC on Ubuntu.
+Let’s go with this how to install OSSEC on Ubuntu.<br />
 
 As always we do update system sources first.
 
-**$ sudo apt update**
+**$ sudo apt update**<br />
 
-If packages can be upgraded do it now.
+If packages can be upgraded do it now.<br />
 
-**$ sudo apt upgrade -y**
+**$ sudo apt upgrade -y**<br />
 
 First we will install the necessary packages to build OSSEC from sources.
 
-**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**
+**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**<br />
 
 Once these dependencies have been fulfilled it is time to download OSSEC and build it in our system.
 
@@ -34,7 +30,7 @@ The above command will download the OSSEC sources into the /opt directory. Befor
 
 Once downloaded and uncompressed we can start the installation process. Very conveniently there is an script already incorporated on the program for this task. We launch this installer.
 
-**$ sudo sh /opt/ossec-hids-3.6.0/install.sh
+**$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
 
 This will trigger the script which will first ask a few questions and then it will build and install OSSEC in our system.
 
