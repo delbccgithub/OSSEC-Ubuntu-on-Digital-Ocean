@@ -14,25 +14,49 @@ As always we do update system sources first.
 
 **$ sudo apt update** 
 
+<br/>
+<br/>
+
 If packages can be upgraded do it now.
 
-**$ sudo apt upgrade -y**  
+**$ sudo apt upgrade -y** 
+
+<br/>
+<br/>
 
 First we will install the necessary packages to build OSSEC from sources.
 
-**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**<br />
+**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**
+
+
+<br/>
+<br/>
+
 
 Once these dependencies have been fulfilled it is time to download OSSEC and build it in our system.
 
 **$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz**
 
+
+<br/>
+<br/>
+
+
 The above command will download the OSSEC sources into the /opt directory. Before building those we need to extract them from the tarball. We’ll use the next command:
 
 **$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt**
 
+<br/>
+<br/>
+
+
 Once downloaded and uncompressed we can start the installation process. Very conveniently there is an script already incorporated on the program for this task. We launch this installer.
 
 **$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
+
+<br/>
+<br/>
+
 
 This will trigger the script which will first ask a few questions and then it will build and install OSSEC in our system.
 
@@ -40,12 +64,20 @@ First step we will be aksed what language to use:
 
 **$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
 
+<br/>
+<br/>
+
+
 
 (en/br/cn/de/el/es/fr/hu/it/jp/nl/pl/ru/sr/tr?) [en]:
 
 I’ll choose the default. Pick up yours. 
 
 Than **PRESS ENTER.**
+
+<br/>
+<br/>
+
 
 
 Next we will install the OSSEC script.
@@ -67,12 +99,20 @@ You must have a C compiler pre-installed in your system.
 **-- Press ENTER to continue or Ctrl-C to abort. --**
 
 
+<br/>
+<br/>
+
+
 
 Next the questions start.
 
 1- What kind of installation do you want (server, agent, local, hybrid or help)?
 
 Type **server**. 
+
+<br/>
+<br/>
+
 
 You see message like this.
 
@@ -88,6 +128,10 @@ Next, choosing where to install OSSEC.
 
 **Use the default by pressing enter**
 
+<br/>
+<br/>
+
+
 
 Next configure OSSEC.
 
@@ -98,14 +142,28 @@ Next configure OSSEC.
 
 Type **yes**
 
+<br/>
+<br/>
+
+
 
 - What's your e-mail address?
 
 Type the **your email** or use **root@localhost**
 
+<br/>
+<br/>
+
+
 
 3.1- Do you want e-mail notification? (y/n) [y]:
+
+<br/>
+
 **Y**
+
+<br/>
+<br/>
 
 - What's your e-mail address? root@localhost or your email address.
 
@@ -114,7 +172,13 @@ Type the **your email** or use **root@localhost**
 
 
 - Do you want to use it? (y/n) [y]:
+
+<br/>
+
 **Y**
+
+<br/>
+<br/>
 
 Note: This option alerts will be root’s mail account. And they will read similar to this following format.
 
@@ -124,8 +188,17 @@ Note: This option alerts will be root’s mail account. And they will read simil
 
 say **Y**
 
+
+<br/>
+<br/>
+
+
 Time to ask if a rootkit check daemon is of your interest. Why not? 
 say **Y**
+
+
+<br/>
+<br/>
 
 
 3.3- Do you want to run the rootkit detection engine? (y/n) [y]:
