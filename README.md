@@ -1,8 +1,8 @@
 
 # OSSEC-Ubuntu on Digital Ocean Droplet (WORK IN PROGRESS)
-OSSEC installation tutorial.<br />
+OSSEC installation tutorial.<br/>
 
-<img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> &nbsp;&nbsp;
+<img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
 
 We will now install OSSEC, make a basic configuration including sending emails with alerts, will briefly explain important files so we can later tune OSSEC to our needs, we’ll also install a Windows agent to report to this server install, and as a last step we’ll also install a web user interface to look for alerts.<br />
 
@@ -364,7 +364,7 @@ More information can be found at http://www.ossec.net
 Click enter and continue.
 
 
-
+<img src=" https://cdn.dribbble.com/users/1066810/screenshots/3287998/done800x600.gif" width=50% height=50%>
 
 Next, to to connect agent and server, you need to add each agent to the server.
 
