@@ -186,6 +186,8 @@ Note: This option alerts will be root’s mail account. And they will read simil
 
 3.2- Do you want to run the integrity check daemon? (y/n) [y]:
 
+<br/>
+
 say **Y**
 
 
@@ -194,6 +196,10 @@ say **Y**
 
 
 Time to ask if a rootkit check daemon is of your interest. Why not? 
+
+
+<br/>
+
 say **Y**
 
 
@@ -202,7 +208,15 @@ say **Y**
 
 
 3.3- Do you want to run the rootkit detection engine? (y/n) [y]:
+
+<br/>
+
 **Y**
+
+
+<br/>
+<br/>
+
 
 3.4- Active response allows you to execute a specific
 
@@ -218,7 +232,15 @@ http://www.ossec.net/en/manual.html#active-response
 
 - Do you want to enable active response? (y/n) [y]:
 
-If you want strongest security than choose: **Y**
+If you want strongest security than choose:
+
+
+<br/>
+
+**Y**
+
+<br/>
+<br/>
 
 
 Now we’ll be aksed an interesting question.
@@ -241,7 +263,14 @@ also add them to block on snort events, for example.
 
 - Do you want to enable the firewall-drop response? (y/n) [y]: 
 
+<br/>
+
 choose **Y**
+
+
+<br/>
+<br/>
+
 
 
 If you choose yes you’ll see something like this.
@@ -261,12 +290,20 @@ Do you want to add more IPs to the white list? (y/n)? [n]:
 
 **Press Enter**
 
+<br/>
+<br/>
+
+
 Next, is enabling system log remotely.
 
 
 3.5- Do you want to enable remote syslog (port 514 udp)? (y/n) [y]:
 
 **Press Enter**
+
+<br/>
+<br/>
+
 
 
 Now after all the questions you should see something similar to this message.
@@ -282,6 +319,10 @@ Now after all the questions you should see something similar to this message.
 
 
 **--- Press ENTER to continue ---**
+
+<br/>
+<br/>
+
 
 
 The last message from the build will read very similar to this.
@@ -314,9 +355,13 @@ https://groups.google.com/forum/#!forum/ossec-list
 
 More information can be found at http://www.ossec.net
 
+<br/>
+<br/>
+
+
 **--- Press ENTER to finish (maybe more information below). ---**
 
-Click enter and…
+Click enter and continue.
 
 
 
@@ -335,17 +380,29 @@ http://www.ossec.net/en/manual.html#ma
 
 Once OSSEC has been finally installed we need to make systemd aware of it so can can monitor processes related to it with sytem-based tools.
 
-**$ sudo systemctl enable ossec**
+**$ sudo systemctl enable ossec** 
+
+<br/>
+<br/>
+
 
 
 Once systemd is aware of this, we can launch OSSEC.
 
 **$ sudo systemctl start ossec**
 
+<br/>
+<br/>
+
+
 
 We can now check which processes are active.
 
 **$ sudo systemctl status ossec**
+
+<br/>
+<br/>
+
 
 
 The above command will display:
@@ -406,6 +463,10 @@ root@ossecman:~$
 Alternatively the combination of ‘ps’ and ‘grep’ commands will do similarly.
 
 **$ ps -ef | grep ossec**
+
+<br/>
+<br/>
+
 
 As a result we’ll see something similar to this:
 
