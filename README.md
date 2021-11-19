@@ -14,7 +14,7 @@
 <ins>Synopsis:</ins>
 
 This tutorial will briefly go over the installation of OSSEC within a Digital Ocean droplet.
-Additionally, we will also install the Windows agent to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
+Additionally, we will also install the OSSEC agent (via Windows) to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
 
 </br>
 
