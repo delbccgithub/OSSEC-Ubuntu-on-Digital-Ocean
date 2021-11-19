@@ -401,7 +401,7 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 ## Congratulations! You've sucessfully installed an OSSEC Server, Agent and Web UI.
 
-
+# FAQ
 
 **What is OSSEC and how does it work?**
 
