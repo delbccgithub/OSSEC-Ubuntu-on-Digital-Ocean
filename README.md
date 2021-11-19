@@ -50,11 +50,12 @@ Next we will install the OSSEC script.
 OSSEC HIDS v3.6.0 Installation Script - http://www.ossec.net
 
 
-_You are about to start the installation process of the OSSEC HIDS.
+You are about to start the installation process of the OSSEC HIDS.
 
 You must have a C compiler pre-installed in your system.
 
-- System: Linux ossecman 4.15.0-88-generic_
+
+- System: Linux ossecman 4.15.0-88-generic
 
 - User: root
 
@@ -63,71 +64,69 @@ You must have a C compiler pre-installed in your system.
 **-- Press ENTER to continue or Ctrl-C to abort. --**
 
 
+
 Next the questions start.
 
 1- What kind of installation do you want (server, agent, local, hybrid or help)?
 
-Type ‘**server**’. We’ll be notified by a message like this.
+Type **server**. 
+
+You see message like this.
 
 - Server installation chosen.
 
-A second question will be asked.
+
+Next, choosing where to install OSSEC.
 
 2- Setting up the installation environment.
 
+
 - Choose where to install the OSSEC HIDS [/var/ossec]:
 
-Use the default by pressing enter, but you can also choose your poison here and type some other path of your choice.
+**Use the default by pressing enter**
 
-A third question will arise in fhis form:
+
+Next configure OSSEC.
 
 3- Configuring the OSSEC HIDS.
 
+
 3.1- Do you want e-mail notification? (y/n) [y]:
 
-Type yes and a sub-question will pop up similar to this:
+Type **yes**
+
 
 - What's your e-mail address?
 
-Type the email of choice. I’ll use the system’s one, ‘root@localhost’, but granted a gmail account should work as well. A new question will come up.
+Type the **your email** or use **root@localhost**
+
 
 3.1- Do you want e-mail notification? (y/n) [y]:
+**Y**
 
-- What's your e-mail address? root@localhost
+- What's your e-mail address? root@localhost or your email address.
 
-- We found your SMTP server as: 127.0.0.1
+
+- We found your SMTP server as: 127.0.0.1 or IP Address of server 
+
 
 - Do you want to use it? (y/n) [y]:
+**Y**
 
-Say ‘yes’ or just press enter. If you choose this option alerts will be recevied by the root’s mail account. And they will read similar to this following format.
+Note: This option alerts will be root’s mail account. And they will read similar to this following format.
 
-OSSEC HIDS Notification.
 
-2020 Mar 04 12:23:26
-
-Received From: ossecman->/var/log/dpkg.log
-
-Rule: 2902 fired (level 7) -> "New dpkg (Debian Package) installed."
-
-Portion of the log(s):
-
-2020-03-04 12:23:25 status installed libntlm0:amd64 1.4-8
-
---END OF NOTIFICATION
-
-In this case the received alert warns us about a new package install. This was triggered when I installed ‘mailutils’ package so I could locally read emails at the CLI.
-
-Now question 3.2 comes in.
 
 3.2- Do you want to run the integrity check daemon? (y/n) [y]:
 
-Say yes to this. Why? This will configure a daemon to check files, so if those are changed you’ll be notified by email.
+say **Y**
 
-Time to ask if a rootkit check daemon is of your interest. Why not? Maybe you already have something in place such as rkhunter but this one from OSSEC won’t hurt and you’ll get nice notifications by mail if you go with the defaults. However if you prettend to monitor servers that already have antivirus installed and those systems resources are already tight you can choose ‘no’ here.
+Time to ask if a rootkit check daemon is of your interest. Why not? 
+say **Y**
+
 
 3.3- Do you want to run the rootkit detection engine? (y/n) [y]:
-
-A new question is presented, now asking this.
+**Y**
 
 3.4- Active response allows you to execute a specific
 
@@ -143,7 +142,8 @@ http://www.ossec.net/en/manual.html#active-response
 
 - Do you want to enable active response? (y/n) [y]:
 
-But what is this? OSSEC is able to automatically execute certain actions depending on alerts already set up and/or ones you’ve put in place. More information here. Use the defaults. But be aware this will be overkill if you just need a warning about an altered file. Choose ‘no’ if you just want the notification and will further proceed with manual actions. However if you want a tight security mechanism that will block activity choose ‘yes’. I’ll go with the defaults here.
+If you want strongest security than choose: **Y**
+
 
 Now we’ll be aksed an interesting question.
 
@@ -163,33 +163,38 @@ portscans and some other forms of attacks. You can
 
 also add them to block on snort events, for example.
 
-- Do you want to enable the firewall-drop response? (y/n) [y]:
+- Do you want to enable the firewall-drop response? (y/n) [y]: 
 
-This is a bit tricky. Let’s imagine we have some files or binaries monitored. And one of them changes, disappears, for the whatever reason. Setting this can block that host at the firewall level. But as the message states this ban can be triggered on other events such as alerts from other security systems. The tricky bit is, will you remember to disable this or to configure it properply so you don’t get false alerts and unnecessary blocks when for example a system update or your software update is performed? Depending on your answer choose ‘yes’ or ‘no’. It’s your systems and network at stake, not mine.
+choose **Y**
 
-If you choose yes you’ll get this.
 
-- Do you want to enable the firewall-drop response? (y/n) [y]:
+If you choose yes you’ll see something like this.
+
 
 - firewall-drop enabled (local) for levels >= 6
 
--
+-ip_address_here
 
-- 127.0.0.53
+
+Go to next question.
+
 
 Now, this question will be asked.
 
 Do you want to add more IPs to the white list? (y/n)? [n]:
 
-White list any other IP you don’t want to get blocked here.
+**Press Enter**
 
-And the last question will come now in the form of syslog activation.
+Next, is enabling system log remotely.
+
 
 3.5- Do you want to enable remote syslog (port 514 udp)? (y/n) [y]:
 
-Syslog is used to send logs on a conventional format to other systems, such as ELK stacks for further examination but this can be very useful to integrate into SIEM software as already explained above. This will help security teams to examine suspicious activity on hosts. An alert on a network IDS such as Suricata can be further followed and investigated at one of the hosts involved if we set this and have a SIEM or similar at the other end. Say no if you are using this in standalone mode since this won’t have use from you.
+**Press Enter**
 
-Now that all questions have been answered you’ll be granted with this message.
+
+Now after all the questions you should see something similar to this message.
+
 
 3.6- Setting the configuration to analyze the following logs:
 
@@ -199,17 +204,9 @@ Now that all questions have been answered you’ll be granted with this message.
 
 -- /var/log/dpkg.log
 
-- If you want to monitor any other file, just change
 
-the ossec.conf and add a new localfile entry.
+**--- Press ENTER to continue ---**
 
-Any questions about the configuration can be answered
-
-by visiting us online at http://www.ossec.net .
-
---- Press ENTER to continue ---
-
-We press enter and the building process starts. Lots of jibberish will be displayed before our eyes when installing OSSEC on Ubuntu. This process won’t be long but it’s a good time to stand up for a coffee and come back to your chair quickly.
 
 The last message from the build will read very similar to this.
 
@@ -241,11 +238,14 @@ https://groups.google.com/forum/#!forum/ossec-list
 
 More information can be found at http://www.ossec.net
 
---- Press ENTER to finish (maybe more information below). ---
+**--- Press ENTER to finish (maybe more information below). ---**
 
 Click enter and…
 
-- In order to connect agent and server, you need to add each agent to the server.
+
+
+
+Next, to to connect agent and server, you need to add each agent to the server.
 
 Run the 'manage_agents' to add or remove them:
 
@@ -255,17 +255,22 @@ More information at:
 
 http://www.ossec.net/en/manual.html#ma
 
+
+
 Once OSSEC has been finally installed we need to make systemd aware of it so can can monitor processes related to it with sytem-based tools.
 
-$ sudo systemctl enable ossec
+**$ sudo systemctl enable ossec**
+
 
 Once systemd is aware of this, we can launch OSSEC.
 
-$ sudo systemctl start ossec
+**$ sudo systemctl start ossec**
+
 
 We can now check which processes are active.
 
-$ sudo systemctl status ossec
+**$ sudo systemctl status ossec**
+
 
 The above command will display:
 
@@ -319,11 +324,12 @@ Mar 04 11:58:07 ossecman ossec[25127]: Completed.
 
 Mar 04 11:58:07 ossecman systemd[1]: Started LSB: Start and stop OSSEC HIDS.
 
-albert@ossecman:~$
+root@ossecman:~$
+
 
 Alternatively the combination of ‘ps’ and ‘grep’ commands will do similarly.
 
-$ ps -ef | grep ossec
+**$ ps -ef | grep ossec**
 
 As a result we’ll see something similar to this:
 
