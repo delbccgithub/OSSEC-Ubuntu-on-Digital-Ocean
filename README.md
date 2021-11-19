@@ -6,6 +6,8 @@
 
 **OSSEC installation tutorial.**
 
+</br>
+
 *Have a question or need information? Please refer to the **FAQ** section at the bottom of the page.*
 
 </br>
