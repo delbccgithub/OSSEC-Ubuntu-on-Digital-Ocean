@@ -389,6 +389,7 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 <br/>
 <br/>
 
+# Congratulations!
 
 <img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
 
