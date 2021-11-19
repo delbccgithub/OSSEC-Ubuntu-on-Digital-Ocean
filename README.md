@@ -409,4 +409,8 @@ Platforms & Software used.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/768px-DigitalOcean_logo.svg.png" width=15% height=15%> https://www.digitalocean.com/
 
 
+### This Project was created while attending the CSN150 course at Bronx Community College.
+Special Thanks to Professor Edwin-Reed-Sanchez.
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
+
+
