@@ -392,6 +392,6 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
 <img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
 
-## Congratulations! You've sucessfully installed an OSSEC server and agent on Ubuntu using Digital Ocean.
+## Congratulations! You've sucessfully installed an OSSEC Server, Agent and Web UI.
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
