@@ -16,10 +16,12 @@
 This tutorial will briefly go over the installation of OSSEC within a Digital Ocean droplet.
 Additionally, we will also install the Windows agent to report to this server. And as a last step we’ll also install a web user interface to look for alerts.
 
+<ins>Instructions:</ins>
+[1. Installation of OSSEC Ubuntu using DigitalOcean.](# 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:)
 
 
 
-## Let's begin the INSTALLATION of OSSEC Ubuntu using DigitalOcean:
+## 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:
 
 <img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=50% height=50%>
 
@@ -385,7 +387,7 @@ Click enter and continue.
 
 <img src="https://i.dlpng.com/static/png/6994062_preview.png" width=50% height=50%>  
 
-# Next, setting up an agent and connecting to the server.
+# 2. Next, setting up an agent and connecting to the server.
 
 Run the 'manage_agents' to add or remove them:
 
