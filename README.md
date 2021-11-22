@@ -41,14 +41,14 @@ Update system sources
 
 Upgrade packages
 
-**$ sudo apt upgrade -y** 
+``` $ sudo apt upgrade -y ``` 
 
 <br/>
 <br/>
 
 Install the packages to build OSSEC from sources.
 
-**$ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y**
+``` $ sudo apt install build-essential gcc make unzip sendmail inotify-tools expect libevent-dev libpcre2-dev libz-dev libssl-dev -y ``` 
 
 
 <br/>
