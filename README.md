@@ -437,7 +437,7 @@ CONTINUE
 OSSEC is open-sourced software, that has Host-based Intrusion Detection System or HIDS. The HID system features log analysis, windows registry monitoring, regulated integrity checks, time-based alerts, active response and rootkit detection. Altogether, this application is useful if you want observe all things taking place on your server and have it logged and reported to you.
 
 
-**What does the program do? 
+**What does the program do?**
 
 OSSEC encorporates itself onto your server and serves as a detection system against intruders or unauthorized/suspicious access.
 
@@ -457,11 +457,24 @@ Give 3 use case for the software.
 
 Final Review
 
-**Is this software any good?**
+**Is this software any good?** 
+
+I believe this software is good because it helps detect any unseen or overlooked activity that takes place on your server.
 
 **What are its pros and cons.**
 
+Pros:
+The software allows you to change settings to your liking and adjust them immediately.
+You receive updates about any issues or flags taking place on the server.
+
+Cons: 
+The WEB-GUI is outdated and is difficult to setup.
+The Agent installation is tedious and requires the deletion of parent folders.
+Sometimes install the OSSEC server requires
+
+
 **Can you see yourself using this tool in the future.**
+
 
 **What did you learn from using this software?**
 
