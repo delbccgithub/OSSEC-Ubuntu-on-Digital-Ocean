@@ -514,9 +514,9 @@ Yes, I definitely see the
 
 ![ERROR installing ubuntu](https://user-images.githubusercontent.com/90642714/143454893-3ff8447b-bdd1-41ec-92be-7f35c35e3fac.jpg)
 
-Please note: There is a possible error encountered when installing OSSEC automatically using the following command prompt on Ubuntu. 
+**Please note:** There is a possible error encountered when installing OSSEC automatically using the following command prompt on Ubuntu. 
 
-Recommended Solution: Install the OSSEC server manually and proceed use the Github instructions list above.
+**Recommended Solution:** Install the OSSEC server manually and proceed use the Github instructions list above.
 
 # Platforms & Software used.
 
