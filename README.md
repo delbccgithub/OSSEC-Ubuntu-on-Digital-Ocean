@@ -559,10 +559,6 @@ Restart Apache and startup the Web User Interface.
  
  **You should see a webpage for OSSEC WebUI sucessfully**
 
-
-<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
-
-
 <br/>
 <br/>
 
