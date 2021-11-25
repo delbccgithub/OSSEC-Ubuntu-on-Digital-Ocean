@@ -613,11 +613,11 @@ Give 3 use case for the software.
 
 <ins>Examples:</ins>
 
-1 – Someone tries to use a rootkit
+1 – If a user tries to use a rootkit on your server, which is a program designed to gain privileged access and hide that its running.
 
-2 – Someone tries to access your server without authorization
+2 –  When an indvidual tries to access your server without authorization such as a user who types the password incorrect while trying to login with ssh or PUTTY using root@ user.
 
-3 – Someone has incorrect access key user agent
+3 – If someone uses an incorrect user access key with is used by the OSSEC Windows Agent and retrieable or created through the ssh root access. The incorrect access key will immediately be shown in the system log and the system would alert the host.
 
 ## Final Review
 
