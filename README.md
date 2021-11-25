@@ -558,12 +558,10 @@ Restart Apache and startup the Web User Interface.
   
  
  **You should see a webpage for OSSEC WebUI sucessfully**
-
-<br/>
-<br/>
-
+ 
 
 <img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
+
 
 ## Congratulations! You've sucessfully installed an OSSEC Server, Agent and Web UI.
 
