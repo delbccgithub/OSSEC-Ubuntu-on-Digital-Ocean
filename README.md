@@ -473,6 +473,53 @@ Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocea
  The OSSEC Agent Manager should successfully be connected and operational.
 
 
+# 3. Installing the Web User Interface.
+
+To begin use PUTTY.exe connect to your server using it's IP address and port 22.
+
+``` In PUTTY paste your IP address for digital ocean server ``` 
+
+Press connect and login using root and the password you used to to create the droplet.
+ 
+ 
+ ``` username login: root ``` 
+ 
+ Once logged in change directory to tmp using the following command 
+ 
+ ``` cd /tmp/ ``` 
+ 
+ Clone the ossec.wui with this command
+
+ ``` sudo git clone https://github.com/ossec/ossec-wui.git ``` 
+ 
+ 
+ Move directory using thefollowing command.
+ 
+ ``` sudo mv /tmp/ossec-wui /var/www/html ``` 
+ 
+ 
+ Next change the directory using the command.
+ 
+ ``` cd /var/www/html/ossec-wui ``` 
+ 
+ 
+ Start the setup by running
+ 
+ 
+  ``` sudo ./setup.sh  ``` www-data ``` 
+ 
+ 
+ 
+ 
+ 
+  ``` Enter the username and confirm the password you want ``` 
+  
+ 
+ ``` www-data ``` 
+
+
+
+
 WORK IN PROGRESS
 CONTINUE
 CONTINUE
