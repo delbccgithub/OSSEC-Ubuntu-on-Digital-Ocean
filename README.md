@@ -523,7 +523,6 @@ Sometimes install the OSSEC server requires
 
 ### This Project was created while attending a course at Bronx Community College.
 
-Reference: https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ by Albert Valbuena
 
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
@@ -531,4 +530,6 @@ GitHub Written by: Delawn Khudan and Shaina Mirabal
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
+### Reference: 
 
+https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ by Albert Valbuena
