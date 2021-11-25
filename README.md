@@ -390,8 +390,6 @@ https://groups.google.com/forum/#!forum/ossec-list
 More information can be found at http://www.ossec.net
 
 <br/>
-<br/>
-
 
  ``` --- Press ENTER to finish (maybe more information below). --- ``` 
 
