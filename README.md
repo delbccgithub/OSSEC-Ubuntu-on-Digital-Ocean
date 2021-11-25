@@ -556,11 +556,11 @@ Restart Apache and startup the Web User Interface.
  
   http://```CHANGE THIS PART TO YOUR DIGITAL OCEAN IP ADDRESS```/ossec-wui/
   
- 
+  
  **You should see a webpage for OSSEC WebUI sucessfully**
  
 
-<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=50% height=50%>
+<img src="https://media4.giphy.com/media/l0Ex9wjSaCkrCuKC4/giphy.gif" width=40% height=40%>
 
 
 ## Congratulations! You've sucessfully installed an OSSEC Server, Agent and Web UI.
