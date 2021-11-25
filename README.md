@@ -470,7 +470,7 @@ Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocea
  
  ``` In top left click "Manage" and than navigate and click "Start OSSEC" ``` 
  
- **The OSSEC Agent Manager should successfully be connected and operational.**
+ The OSSEC Agent Manager should successfully be connected and operational.
 
 
 WORK IN PROGRESS
@@ -581,7 +581,6 @@ https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ 
 <br/>
 
 ### This Project was created while attending a course at Bronx Community College.
-
 
 Special Thanks to Professor Edwin-Reed-Sanchez.
 
