@@ -477,7 +477,7 @@ Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocea
  
  ``` In top left click "Manage" and than navigate and click "Start OSSEC" ``` 
  
- The OSSEC Agent Manager should successfully be connected and operational.
+ **The OSSEC Agent Manager should successfully be connected and operational.**
 
 
 <img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
@@ -544,11 +544,22 @@ Press connect and login using root and the password you used to to create the dr
  
  ``` www-data ``` 
 
-Now set permissions
+Finalize permissions
 
  ``` sudo chown -R www-data:www-data /var/www/html/ossec-wui/ ``` 
 
 ``` sudo chmod -R 755 /var/www/html/ossec-wui/ ``` 
+
+Restart Apache and startup the Web User Interface.
+
+ ``` sudo systemctl restart apache2 ``` 
+ 
+ Finally you can now navigate to the address using
+ 
+  http://```CHANGE THIS PART TO YOUR DIGITAL OCEAN IP ADDRESS```/ossec-wui/
+  
+ 
+ **You should see a webpage for OSSEC WebUI sucessfully**
 
 
 <img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
