@@ -564,14 +564,6 @@ Restart Apache and startup the Web User Interface.
 
 <img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
 
-WORK IN PROGRESS
-CONTINUE
-CONTINUE
-CONTINUE
-CONTINUE
-CONTINUE
-CONTINUE
-CONTINUE
 
 <br/>
 <br/>
@@ -593,6 +585,9 @@ Play video below:
 </br>
 
 # FAQ
+
+</br>
+
 
 **What is OSSEC and how does it work?**
 
