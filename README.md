@@ -464,7 +464,7 @@ Paste the long code in the the authentication key section of the (OSSEC) Agent W
   
 Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocean droplet.
 
- ``` Confirm that IP address you entered for Server IP is correct "
+ ``` Confirm that IP address you entered for Server IP is correct "  ``` 
  
  Inside OSSEC Agent Manager
  
