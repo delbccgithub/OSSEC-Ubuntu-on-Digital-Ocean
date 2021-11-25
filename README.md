@@ -448,7 +448,7 @@ CONTINUE
 <br/>
 <br/>
 
-# DEMO (VIDEO)
+# DEMO (Instructional Video)
 
 [![Alt text](https://i9.ytimg.com/vi_webp/M57CplR6he4/mqdefault.webp?sqp=CISi_owG&rs=AOn4CLCP90pE6PxrseKwq89WYGv8qUJhlw)](https://www.youtube.com/watch?v=M57CplR6he4)
 
