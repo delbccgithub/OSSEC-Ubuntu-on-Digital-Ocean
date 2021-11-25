@@ -670,7 +670,6 @@ I learned how something as simple as system log can be intergrated into a softwa
 
 
 <br/>
-<br/>
 
 ### Reference: 
 
