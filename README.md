@@ -505,7 +505,7 @@ Sometimes install the OSSEC server requires
 
 **Can you see yourself using this tool in the future.**
 
-Yes, I definitely see the 
+Yes, I definitely see this tool 
 
 **What did you learn from using this software?**
 
