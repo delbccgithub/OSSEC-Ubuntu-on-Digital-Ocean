@@ -572,7 +572,7 @@ Play video below:
 
 </br>
 
-[![Alt text](https://i9.ytimg.com/vi_webp/M57CplR6he4/mqdefault.webp?sqp=CISi_owG&rs=AOn4CLCP90pE6PxrseKwq89WYGv8qUJhlw)](https://www.youtube.com/watch?v=M57CplR6he4)
+[![Play video here.](https://i.ytimg.com/vi/iXrotaDby5I/maxresdefault.jpg)](https://www.youtube.com/watch?v=M57CplR6he4)
 
 
 </br>
