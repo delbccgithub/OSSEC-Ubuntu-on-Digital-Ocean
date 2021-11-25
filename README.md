@@ -644,6 +644,8 @@ Yes, I definitely see myself using this tool in the future especially because it
 
 I learned how something as simple as system log can be intergrated into a software to feature a detection system. The intrusion detection feature creates notification via E-mail or through server web address. These can be used during an attack on your server and because the service is open source you can easily install it without and fees and test out many features offered by OSSEC.
 
+</br>
+
 # Possible Error(s)
 
 ![ERROR installing ubuntu](https://user-images.githubusercontent.com/90642714/143454893-3ff8447b-bdd1-41ec-92be-7f35c35e3fac.jpg)
