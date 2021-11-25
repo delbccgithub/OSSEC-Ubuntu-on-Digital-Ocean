@@ -42,7 +42,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 ## 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:
 
-<img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=50% height=50%>
+<img src="https://images.squarespace-cdn.com/content/v1/5980deaee6f2e1738e18738c/1550165343634-2QDHAJHNQ82KZZ8KY91C/start-here-gif.gif" width=70% height=70%>
 
 Update system sources
 
