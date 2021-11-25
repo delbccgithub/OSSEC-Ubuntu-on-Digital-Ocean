@@ -26,7 +26,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [2. Setting up an OSSEC agent using Windows.](#2-next-setting-up-an-agent-and-connecting-to-the-server)
 
-[3. Setting up an OSSEC agent using Windows.](#3-installing-the-web-user-interface)
+[3. Installing the Web User Interface.](#3-installing-the-web-user-interface)
 
 [4. Demo (Video)](#demo-instructional-video)
 
@@ -480,6 +480,9 @@ Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocea
  The OSSEC Agent Manager should successfully be connected and operational.
 
 
+<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
+
+
 # 3. Installing the Web User Interface.
 
 Before we start anything we need to install a few more base applications.
@@ -546,6 +549,9 @@ Now set permissions
  ``` sudo chown -R www-data:www-data /var/www/html/ossec-wui/ ``` 
 
 ``` sudo chmod -R 755 /var/www/html/ossec-wui/ ``` 
+
+
+<img src="https://c.tenor.com/0AVbKGY_MxMAAAAM/check-mark-verified.gif" width=20% height=20%>  
 
 WORK IN PROGRESS
 CONTINUE
