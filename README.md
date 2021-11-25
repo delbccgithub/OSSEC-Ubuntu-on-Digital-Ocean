@@ -1,7 +1,7 @@
 
 # OSSEC-Ubuntu on Digital Ocean Droplet (Lastest Update: Nov 2021)
 
-[![Alt text](https://i9.ytimg.com/vi_webp/M57CplR6he4/mqdefault.webp?sqp=CISi_owG&rs=AOn4CLCP90pE6PxrseKwq89WYGv8qUJhlw)](https://www.youtube.com/watch?v=M57CplR6he4)
+
 
 **OSSEC installation tutorial.**
 
@@ -448,6 +448,10 @@ CONTINUE
 <br/>
 <br/>
 
+# DEMO
+
+[![Alt text](https://i9.ytimg.com/vi_webp/M57CplR6he4/mqdefault.webp?sqp=CISi_owG&rs=AOn4CLCP90pE6PxrseKwq89WYGv8qUJhlw)](https://www.youtube.com/watch?v=M57CplR6he4)
+
 # FAQ
 
 **What is OSSEC and how does it work?**
@@ -511,6 +515,7 @@ Sometimes install the OSSEC server requires
 
 <br/>
 <br/>
+
 
 ### This Project was created while attending a course at Bronx Community College.
 
