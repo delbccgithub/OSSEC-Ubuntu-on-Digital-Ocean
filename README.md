@@ -28,6 +28,10 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [3. Demo (Video)](#demo-instructional-video)
 
+[4. FAQ.](#faq)
+
+[5. Reference.](#reference)
+
 </br>
 
 
@@ -524,7 +528,6 @@ Sometimes install the OSSEC server requires
 
 https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ by Albert Valbuena
 
-<br/>
 <br/>
 
 ### This Project was created while attending a course at Bronx Community College.
