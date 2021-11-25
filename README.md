@@ -26,6 +26,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [2. Setting up an OSSEC agent using Windows.](#2-next-setting-up-an-agent-and-connecting-to-the-server)
 
+[3. Demo (Video)](#demo-instructional-video)
 
 </br>
 
