@@ -8,6 +8,9 @@
 
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
 
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/904a8656-d025-458b-ab94-7335122cc9b9/dasqh52-40b82dc1-18a3-4ad0-b91e-3e44806e2294.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkwNGE4NjU2LWQwMjUtNDU4Yi1hYjk0LTczMzUxMjJjYzliOVwvZGFzcWg1Mi00MGI4MmRjMS0xOGEzLTRhZDAtYjkxZS0zZTQ0ODA2ZTIyOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qbcMDAMjZU8LQ4leD8L8OFLDmCQGKWIxO5miEXrBfiw
+
+" width=50% height=50%> 
 
 *Have a question or need information? Please refer to the **[FAQ](#faq)** section at the bottom of the page.*
 
