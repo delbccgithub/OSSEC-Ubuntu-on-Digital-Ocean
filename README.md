@@ -32,8 +32,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [5. FAQ.](#faq)
 
-[6. Reference.](#possible-errors)
-
+[6. Possible Errors.](#possible-errors)
 
 [7. Reference.](#reference)
 
