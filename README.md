@@ -510,7 +510,7 @@ Yes, I definitely see the
 **What did you learn from using this software?**
 
 
-# Possible Error
+# Possible Error(s)
 
 ![ERROR installing ubuntu](https://user-images.githubusercontent.com/90642714/143454893-3ff8447b-bdd1-41ec-92be-7f35c35e3fac.jpg)
 
