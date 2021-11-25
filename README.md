@@ -34,7 +34,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 Update system sources
 
-``` $ sudo apt update ```
+``` $ sudo apt update ``` 
 
 <br/>
 <br/>
@@ -57,7 +57,7 @@ Install the packages to build OSSEC from sources.
 
 Begin to download OSSEC.
 
-**$ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz**
+ ``` $ sudo wget -P /opt https://github.com/ossec/ossec-hids/archive/3.6.0.tar.gz ``` 
 
 
 <br/>
@@ -66,7 +66,7 @@ Begin to download OSSEC.
 
 Extract them from the tar. Use the following command:
 
-**$ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt**
+ ``` $ sudo tar -zxf /opt/3.6.0.tar.gz --directory /opt ``` 
 
 <br/>
 <br/>
@@ -74,7 +74,7 @@ Extract them from the tar. Use the following command:
 
 Once downloaded start the installation.
 
-**$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
+ ``` $ sudo sh /opt/ossec-hids-3.6.0/install.sh ``` 
 
 <br/>
 <br/>
@@ -82,7 +82,7 @@ Once downloaded start the installation.
 
 The first questions is what language would you like to install OSSEC in on your system.
 
-**$ sudo sh /opt/ossec-hids-3.6.0/install.sh**
+ ``` $ sudo sh /opt/ossec-hids-3.6.0/install.sh ``` 
 
 <br/>
 <br/>
@@ -93,7 +93,7 @@ The first questions is what language would you like to install OSSEC in on your 
 
 I’ll choose the default. (Select differently if you want another language.)
 
-Than **PRESS ENTER.**
+Than  ``` PRESS ENTER. ``` 
 
 <br/>
 <br/>
@@ -116,7 +116,7 @@ You must have a C compiler pre-installed in your system.
 
 - Host: ossecman
 
-**-- Press ENTER to continue or Ctrl-C to abort. --**
+ ``` -- Press ENTER to continue or Ctrl-C to abort. -- ``` 
 
 
 <br/>
@@ -128,7 +128,7 @@ Answer the following questions:
 
 1- What kind of installation do you want (server, agent, local, hybrid or help)?
 
-Type **server**. 
+Type  ``` server ``` . 
 
 <br/>
 <br/>
@@ -146,7 +146,7 @@ Choose where to install OSSEC.
 
 - Choose where to install the OSSEC HIDS [/var/ossec]:
 
-**Use the default by pressing enter**
+ ``` Use the default by pressing enter ``` 
 
 <br/>
 <br/>
@@ -160,7 +160,7 @@ Proceed to configure OSSEC.
 
 3.1- Do you want e-mail notification? (y/n) [y]:
 
-Type **Yes**
+Type  ``` Yes ``` 
 
 <br/>
 <br/>
@@ -169,7 +169,7 @@ Type **Yes**
 
 - What's your e-mail address?
 
-Type the **your email** or use **root@localhost**
+ ``` Type the **your email** or use **root@localhost** ``` 
 
 <br/>
 <br/>
@@ -180,7 +180,7 @@ Type the **your email** or use **root@localhost**
 
 <br/>
 
-Type **Y**
+Type  ``` Y ``` 
 
 <br/>
 <br/>
@@ -195,7 +195,7 @@ Type **Y**
 
 <br/>
 
-Type **Y**
+Type  ``` Y ``` 
 
 <br/>
 <br/>
@@ -208,7 +208,7 @@ Note: This option alerts will be root’s mail account. And they will read simil
 
 <br/>
 
-Type **Y**
+Type  ``` Y ``` 
 
 
 <br/>
@@ -220,7 +220,7 @@ Time to ask if a rootkit check daemon is of your interest. Why not?
 
 <br/>
 
-Type **Y**
+Type  ``` Y ``` 
 
 
 <br/>
@@ -231,7 +231,7 @@ Type **Y**
 
 <br/>
 
-**Y**
+ ``` Y ``` 
 
 
 <br/>
@@ -257,7 +257,7 @@ If you want strongest security than choose:
 
 <br/>
 
-Type **Y**
+Type  ``` Y ``` 
 
 <br/>
 <br/>
@@ -285,7 +285,7 @@ also add them to block on snort events, for example.
 
 <br/>
 
-Choose **Y**
+Choose  ``` Y ``` 
 
 
 <br/>
@@ -308,7 +308,7 @@ Now, this question will be asked.
 
 Do you want to add more IPs to the white list? (y/n)? [n]:
 
-**Press Enter**
+ ``` Press Enter ``` 
 
 <br/>
 <br/>
@@ -319,7 +319,7 @@ Next, is enabling system log remotely.
 
 3.5- Do you want to enable remote syslog (port 514 udp)? (y/n) [y]:
 
-**Press Enter**
+ ``` Press Enter ``` 
 
 <br/>
 <br/>
@@ -338,7 +338,7 @@ Now after all the questions you should see something similar to this message.
 -- /var/log/dpkg.log
 
 
-**--- Press ENTER to continue ---**
+ ``` --- Press ENTER to continue --- ``` 
 
 <br/>
 <br/>
@@ -379,7 +379,7 @@ More information can be found at http://www.ossec.net
 <br/>
 
 
-**--- Press ENTER to finish (maybe more information below). ---**
+ ``` --- Press ENTER to finish (maybe more information below). --- ``` 
 
 Click enter and continue.
 
@@ -408,7 +408,7 @@ http://www.ossec.net/en/manual.html#ma
 
 Once OSSEC has been finally installed we need to make systemd aware of it so can can monitor processes related to it with sytem-based tools.
 
-**$ sudo systemctl enable ossec** 
+ ``` $ sudo systemctl enable ossec ``` 
 
 WORK IN PROGRESS
 CONTINUE
