@@ -38,6 +38,7 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [8. Credit.](#this-project-was-created-while-attending-a-course-at-bronx-community-college)
 
+</br>
 
 ## 1. Let's begin the Installation of OSSEC Ubuntu using DigitalOcean:
 
