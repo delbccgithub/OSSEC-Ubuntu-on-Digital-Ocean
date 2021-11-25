@@ -475,6 +475,22 @@ Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocea
 
 # 3. Installing the Web User Interface.
 
+Before we start anything we need to install a few more base applications.
+
+``` sudo apt install -y php php-cli php-common libapache2-mod-php apache2-utils sendmail inotify-tools apache2 build-essential gcc make wget tar zlib1g-dev libpcre2-dev libpcre3-dev unzip libz-dev libssl-dev libpcre2-dev libevent-dev build-essential ```
+
+Than enable Apache and launch it
+
+``` sudo systemctl enable apache2 ```
+
+``` sudo systemctl start apache2 ```
+
+```sudo a2enmod rewrite ```
+
+```sudo systemctl restart apache2 ```
+
+
+
 To begin use PUTTY.exe connect to your server using it's IP address and port 22.
 
 ``` In PUTTY paste your IP address for digital ocean server ``` 
@@ -503,22 +519,26 @@ Press connect and login using root and the password you used to to create the dr
  ``` cd /var/www/html/ossec-wui ``` 
  
  
- Start the setup by running
+ Start the Web User Interface (WUI) setup by running
  
  
-  ``` sudo ./setup.sh  ``` www-data ``` 
+  ``` sudo ./setup.sh  ```
  
  
- 
- 
+ Create credentials.
  
   ``` Enter the username and confirm the password you want ``` 
   
  
+ For Enter your web server user name (e.g, apache, www. nobody, www-data...)
+ 
  ``` www-data ``` 
 
+Now set permissions
 
+ ``` sudo chown -R www-data:www-data /var/www/html/ossec-wui/ ``` 
 
+``` sudo chmod -R 755 /var/www/html/ossec-wui/ ``` 
 
 WORK IN PROGRESS
 CONTINUE
