@@ -410,6 +410,22 @@ Once OSSEC has been finally installed we need to make systemd aware of it so can
 
  ``` $ sudo systemctl enable ossec ``` 
 
+Run the manage agent command.
+
+ ``` sudo /var/ossec/bin/manage_agents ``` 
+
+
+To create a new agent we will select option (A)dd an agent.
+
+ ``` A ``` 
+
+Enter your Windows computer ip address:
+
+Cofirm by entering 
+ ``` Y ``` 
+
+
+
 WORK IN PROGRESS
 CONTINUE
 CONTINUE
