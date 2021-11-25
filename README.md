@@ -3,7 +3,7 @@
 
 
 
-### OSSEC installation tutorial. <img src="https://images.squarespace-cdn.com/content/v1/5ee171f91f3eb95b5b7d7272/1608151073020-AVRL8B4HS9EH784EH7V7/lightbulb.gif" width=5% height=5%> 
+### OSSEC installation tutorial. <img src="https://images.squarespace-cdn.com/content/v1/5ee171f91f3eb95b5b7d7272/1608151073020-AVRL8B4HS9EH784EH7V7/lightbulb.gif" width=3% height=3> 
 
 
 
