@@ -516,7 +516,7 @@ Yes, I definitely see the
 
 **Please note:** There is a possible error encountered when installing OSSEC automatically using the following command prompt on Ubuntu. 
 
-``` Recommended Solution: Install the OSSEC server manually and proceed use the Github instructions list above. ```
+``` Recommended Solution: Install the OSSEC server manually and proceed use the Github instructions list above. ``` **[Instructions here.](##ossec-installation-tutorial)** 
 
 # Platforms & Software used.
 
