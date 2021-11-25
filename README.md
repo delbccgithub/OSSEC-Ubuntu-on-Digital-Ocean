@@ -3,7 +3,7 @@
 
 
 
-### OSSEC installation tutorial. <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/904a8656-d025-458b-ab94-7335122cc9b9/dasqh52-40b82dc1-18a3-4ad0-b91e-3e44806e2294.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkwNGE4NjU2LWQwMjUtNDU4Yi1hYjk0LTczMzUxMjJjYzliOVwvZGFzcWg1Mi00MGI4MmRjMS0xOGEzLTRhZDAtYjkxZS0zZTQ0ODA2ZTIyOTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qbcMDAMjZU8LQ4leD8L8OFLDmCQGKWIxO5miEXrBfiw" width=5% height=5%> 
+### OSSEC installation tutorial. <img src="https://images.squarespace-cdn.com/content/v1/5ee171f91f3eb95b5b7d7272/1608151073020-AVRL8B4HS9EH784EH7V7/lightbulb.gif" width=5% height=5%> 
 
 
 
