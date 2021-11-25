@@ -614,7 +614,9 @@ Give 3 use case for the software.
 <ins>Examples:</ins>
 
 1 – Someone tries to use a rootkit
+
 2 – Someone tries to access your server without authorization
+
 3 – Someone has incorrect access key user agent
 
 ## Final Review
@@ -680,4 +682,5 @@ GitHub Written by: Delawn Khudan and Shaina Mirabal
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
-[Back to top.] (#ossec-installation-tutorial)
+
+**[Back to top.](#ossec-installation-tutorial)** 
