@@ -425,12 +425,52 @@ Run the manage agent command.
 To create a new agent we will select option (A)dd an agent.
 
  ``` A ``` 
+ 
+Name your new agent:
 
-Enter your Windows computer ip address:
+ ``` Please Enter the agent name you want here.```
 
-Cofirm by entering 
+Enter your Windows computer ip address: (You can use myip.com and copy the host address.)
+
+ ``` Please Enter your Windows IP here.```
+
+Confirm by entering 
+
  ``` Y ``` 
+ 
+ Now go to 
+ 
+```  https://www.ossec.net/download-ossec/ ``` 
 
+And download the following file.
+
+ ``` "Agent Windows"	(ossec-agent-win32-3.6.0.exe) ``` 
+
+Right click and Run as the download file Adminstrator.
+
+Now return to the command prompt window used to connect to the OSSEC server and extract the key. 
+
+Use (E)xtract key for agent.
+
+ ``` E ``` 
+ 
+Than highlight and copy the key shown the command problem 
+ 
+  ``` The key will be under "Agent key information for ' ' is: "  ``` 
+  
+Paste the long code in the the authentication key section of the (OSSEC) Agent Windows.
+
+ ``` Confirm key by pressing OK  ``` 
+  
+Lastly, make sure the OSSEC Server IP matches the same IP from your digital ocean droplet.
+
+ ``` Confirm that IP address you entered for Server IP is correct "
+ 
+ Inside OSSEC Agent Manager
+ 
+ ``` In top left click "Manage" and than navigate and click "Start OSSEC" ``` 
+ 
+ **The OSSEC Agent Manager should successfully be connected and operational.**
 
 
 WORK IN PROGRESS
@@ -493,22 +533,24 @@ I believe this software is good because it helps detect any unseen or overlooked
 
 **What are its pros and cons.**
 
-Pros:
+<ins>Pros:</ins>
 The software allows you to change settings to your liking and adjust them immediately.
 You receive updates about any issues or flags taking place on the server.
+The OSSEC software used with Ubuntu 20.04 is completely free and open-source.
 
-Cons: 
+<ins>Cons:</ins>
 The WEB-GUI is outdated and is difficult to setup.
 The Agent installation is tedious and requires the deletion of parent folders.
-Sometimes install the OSSEC server requires
+Sometimes install the OSSEC server requires deletion of folders or files and than reinstalling using command prompts manually.
 
 
 **Can you see yourself using this tool in the future.**
 
-Yes, I definitely see this tool 
+Yes, I definitely see myself using this tool in the future especially because it is an open-source software. For example, if I were to host a game server and I wanted to make sure unauthorized access or changes weren't made I could be notified by them via E-mail.
 
 **What did you learn from using this software?**
 
+I learned how something as simple as system log can be intergrated into a software to feature a detection system. The intrusion detection feature creates notification via E-mail or through server web address. These can be used during an attack on your server and because the service is open source you can easily install it without and fees and test out many features offered by OSSEC.
 
 # Possible Error(s)
 
