@@ -665,6 +665,7 @@ I learned how something as simple as system log can be intergrated into a softwa
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/768px-DigitalOcean_logo.svg.png" width=15% height=15%> https://www.digitalocean.com/
 
+<br/>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/PuTTY_icon_128px.png" width=15% height=15%> https://www.putty.org/
 
