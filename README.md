@@ -675,6 +675,9 @@ I learned how something as simple as system log can be intergrated into a softwa
 ### Reference: 
 
 https://www.adminbyaccident.com/security/how-to-install-ossec-server-on-ubuntu/ 
+
+<br/>
+
 by Albert Valbuena
 
 <br/>
