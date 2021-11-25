@@ -505,9 +505,14 @@ Sometimes install the OSSEC server requires
 
 **Can you see yourself using this tool in the future.**
 
+Yes, I definitely see the 
 
 **What did you learn from using this software?**
 
+
+# Possible Error
+
+![ERROR installing ubuntu](https://user-images.githubusercontent.com/90642714/143454893-3ff8447b-bdd1-41ec-92be-7f35c35e3fac.jpg)
 
 
 # Platforms & Software used.
