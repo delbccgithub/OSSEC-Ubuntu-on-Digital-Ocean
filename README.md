@@ -587,6 +587,7 @@ Play video below:
 
 </br>
 
+In the (.GIF) image below it shows the OSSEC alerts Notifications that are received daily via e-mail.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/90642714/143485017-cd581d95-7796-4575-b264-704de2cd73f1.gif)
 
