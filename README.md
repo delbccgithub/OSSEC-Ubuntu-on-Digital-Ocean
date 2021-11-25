@@ -652,7 +652,10 @@ I learned how something as simple as system log can be intergrated into a softwa
 
 **Please note:** There is a possible error encountered when installing OSSEC automatically using the following command prompt on Ubuntu. 
 
-``` Recommended Solution: Install the OSSEC server manually and proceed use the Github instructions list above. ``` **[Instructions here.](#ossec-installation-tutorial)** 
+``` Recommended Solution: Install the OSSEC server manually and proceed use the Github instructions list above. ``` **[Instructions here.](#ossec-installation-tutorial)**\
+
+</br>
+
 
 # Platforms & Software used.
 
@@ -690,6 +693,8 @@ GitHub Written by: Delawn Khudan and Shaina Mirabal
 
 <img src="https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-tuesday/CUNYGive-BCC-ani.gif" width=50% height=50%>
 
+
 <br/>
+
 
 **[Back to top.](#ossec-installation-tutorial)** 
