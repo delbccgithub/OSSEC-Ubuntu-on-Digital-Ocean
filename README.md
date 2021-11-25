@@ -3,6 +3,8 @@
 
 **OSSEC installation tutorial.**
 
+https://www.youtube.com/watch?v=M57CplR6he4
+
 
 <img src="https://www.ossec.net/wp-content/uploads/2019/01/ossec.png" width=50% height=50%> 
 
