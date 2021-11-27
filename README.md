@@ -36,9 +36,11 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [7. Possible Errors.](#possible-errors)
 
-[8. Reference.](#reference)
+[8. Software Links.](#platforms--software-used)
 
-[9. Credit.](#this-project-was-created-while-attending-a-course-at-bronx-community-college)
+[9. Reference.](#reference)
+
+[10. Credit.](#this-project-was-created-while-attending-a-course-at-bronx-community-college)
 
 </br>
 
