@@ -32,11 +32,13 @@ Additionally, we will also install the OSSEC agent (via Windows) to report to th
 
 [5. FAQ.](#faq)
 
-[6. Possible Errors.](#possible-errors)
+[6. Final Review.](#final-review)
 
-[7. Reference.](#reference)
+[7. Possible Errors.](#possible-errors)
 
-[8. Credit.](#this-project-was-created-while-attending-a-course-at-bronx-community-college)
+[8. Reference.](#reference)
+
+[9. Credit.](#this-project-was-created-while-attending-a-course-at-bronx-community-college)
 
 </br>
 
